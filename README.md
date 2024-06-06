@@ -8,3 +8,6 @@ in this project my task is to make a model that can predict how likely a passeng
 2. download the data from the given link : paste the link
 3. first of all run eda.ipynb file so that you may get desired dataset
 4. then run main.ipynb to make build the model
+
+
+![Screenshot (32)](https://github.com/mdismailquraishicse/AirlinePassengerRefferelPrediction/assets/52546719/4d746151-a305-48b3-877a-7d7e35ce0e5f)
