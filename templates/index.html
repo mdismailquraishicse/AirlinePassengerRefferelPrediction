@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Airline Passenger Refferal Recommendation</h1>
+        <h2>Rate Your Journey</h2>
+        <form action="/pred", method="POST">
+            <div class="ratings">
+                <label for=""> Overall : </label>
+                <select name="overall" id="">
+                {% for i in range(11) %} <option value={{i}}>{{i}}</option> {% endfor %}
+                </select>
+            </div>
+            <div class="ratings">
+                <label for=""> Seat comfort : </label>
+                <select name="seat_comfort" id="">
+                    {% for i in range(6) %} <option value={{i}}>{{i}}</option> {% endfor %}
+                </select>
+            </div>
+            <div class="ratings">
+                <label for=""> Cabin Service : </label>
+                <select name="cabin_service" id="">
+                    {% for i in range(6) %} <option value={{i}}>{{i}}</option> {% endfor %}
+                </select>
+            </div>
+            <div class="ratings">
+                <label for=""> Food : </label>
+                <select name="food_bev" id="">
+                    {% for i in range(6) %} <option value={{i}}>{{i}}</option> {% endfor %}
+                </select>
+            </div>
+            <div class="ratings">
+                <label for=""> Value For Money : </label>
+                <select name="value_for_money" id="">
+                    {% for i in range(6) %} <option value={{i}}>{{i}}</option> {% endfor %}
+                </select>
+            </div>
+            <div class="ratings">
+            <label for=""> Cabin type : </label>
+                <select name="cabin" id="">
+                    <option value="business">Business</option>
+                    <option value="economy">Economy</option>
+                    <option value="first_class">First Class</option>
+                    <option value="premium_economy">Premium Economy</option>
+                </select>
+            </div>
+            <button type="submit">Predict</button>
+        </form>
+        <label for="">Prediction : {{result}}</label>
+    </div>
+</body>
+</html>
