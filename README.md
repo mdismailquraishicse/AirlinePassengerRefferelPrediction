@@ -1,4 +1,5 @@
 ![pexels-shyam-mishra-203327-14694761](https://github.com/mdismailquraishicse/AirlinePassengerRefferelPrediction/assets/52546719/ce4074c2-c77c-484f-8c3d-a8263954e82b)
+linkedin post : https://www.linkedin.com/posts/mdismailquraishicse_hello-guys-i-made-a-machine-learning-project-activity-7204730822644408320-6dyu?utm_source=share&utm_medium=member_desktop
 # About the project :
 I have data from airline passengers where passengers rate different different services like how was the seat condition, food condition etc,
 in this project my task is to make a model that can predict how likely a passenger will recommend that flight to their friends or families.
