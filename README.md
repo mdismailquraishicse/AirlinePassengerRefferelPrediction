@@ -5,7 +5,7 @@ in this project my task is to make a model that can predict how likely a passeng
 # How to use this project :
 ## Backend :
 1. clone the repository
-2. download the data from the given link : paste the link
+2. download the data from the given link : https://drive.google.com/drive/folders/1H1h6rFKqlpiBXnoWdZTDzUHQ1K1zy2B5?usp=drive_link
 3. first of all run eda.ipynb file so that you may get desired dataset
 4. then run main.ipynb to make build the model
 ## Steps :
